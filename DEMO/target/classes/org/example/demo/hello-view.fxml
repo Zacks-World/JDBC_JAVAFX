@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="453.0" prefWidth="674.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab text="Professeurs">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="424.0" prefWidth="457.0">
+               <children>
+                  <BorderPane layoutX="237.0" layoutY="112.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>
