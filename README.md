@@ -6,13 +6,10 @@ This project is a JavaFX application that integrates with a MySQL database to ma
 1. [Overview](#overview)
 2. [Features](#features)
 3. [Prerequisites](#prerequisites)
-4. [Project Setup](#project-setup)
-   - [Database Configuration](#database-configuration)
-   - [Run Instructions](#run-instructions)
+4. [Database Configuration](#database-configuration)
 5. [Folder Structure](#folder-structure)
 6. [Class Diagram](#class-diagram)
-7. [Screenshots](#screenshots)
-8. [Future Improvements](#future-improvements)
+7. [MDL](#mdl)
 
 ---
 
@@ -62,10 +59,47 @@ To run this project, ensure you have:
 
 ---
 
-## Project Setup
-
-### Database Configuration
+## Database Configuration
 
 1. Create a MySQL database named `gestion_professeurs`:
    ```sql
    CREATE DATABASE gestion_professeurs;
+   CREATE TABLE professors (
+    id_prof INT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(255),
+    prenom VARCHAR(255),
+    cin VARCHAR(20),
+    adresse VARCHAR(255),
+    telephone VARCHAR(20),
+    email VARCHAR(255),
+    date_recrutement DATE);
+   CREATE TABLE departments (
+    id_depart INT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(255));
+##Folder Structure
+src/main/java
+└── com
+    └── example
+        └── myapp
+            ├── App.java
+            ├── controllers
+            │   ├── ProfController.java
+            │   ├── DepartmentController.java
+            ├── models
+            │   ├── Professor.java
+            │   ├── Department.java
+            ├── services
+            │   ├── ProfessorService.java
+            │   ├── DepartmentService.java
+            ├── utils
+            │   └── SingletonConnexionDB.java
+            └── views
+                ├── MainView.java
+                └── AddProfessorView.java
+##Class Diagram
+
+![Classe](https://github.com/user-attachments/assets/eb90d737-4119-46c9-9b54-055c271bdac8)
+
+##MDL
+
+
