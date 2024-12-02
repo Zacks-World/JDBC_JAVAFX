@@ -77,6 +77,7 @@ To run this project, ensure you have:
     id_depart INT AUTO_INCREMENT PRIMARY KEY,
     nom VARCHAR(255));
 ##Folder Structure
+
 src/main/java
 └── com
     └── example
@@ -96,6 +97,7 @@ src/main/java
             └── views
                 ├── MainView.java
                 └── AddProfessorView.java
+                
 ##Class Diagram
 
 ![Classe](https://github.com/user-attachments/assets/eb90d737-4119-46c9-9b54-055c271bdac8)
