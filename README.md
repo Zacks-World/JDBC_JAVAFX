@@ -76,14 +76,18 @@ To run this project, ensure you have:
    CREATE TABLE departments (
     id_depart INT AUTO_INCREMENT PRIMARY KEY,
     nom VARCHAR(255));
-##Folder Structure
+## Folder Structure
 
-src/main/java └── com └── example └── myapp ├── App.java # Main application entry point ├── controllers # Contains controllers to handle user interactions │ ├── ProfController.java # Controller for managing professors │ ├── DepartmentController.java # Controller for managing departments ├── models # Data models for the application │ ├── Professor.java # Represents a professor entity │ ├── Department.java # Represents a department entity ├── services # Handles business logic and database operations │ ├── ProfessorService.java # Service for professor-related operations │ ├── DepartmentService.java # Service for department-related operations ├── utils # Utility classes for the application │ └── SingletonConnexionDB.java # Manages the database connection └── views # Defines the user interface layouts ├── MainView.java # Main application interface └── AddProfessorView.java # Interface for adding professors
-                
-##Class Diagram
+ * Controllers
+ * Services
+ * Models
+ * Utils
+ * Views
+               
+## Class Diagram
 
 ![Classe](https://github.com/user-attachments/assets/eb90d737-4119-46c9-9b54-055c271bdac8)
 
-##MDL
+## MDL
 
 
